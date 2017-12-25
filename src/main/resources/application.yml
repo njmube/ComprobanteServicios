@@ -1,0 +1,52 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  profiles:
+    active: "local"
+server:
+  port: 57783
+logging:
+  level:
+    org:
+      hibernate:
+        SQL:  DEBUG
+
+---
+spring:
+  profiles: local
+  datasource:
+    url:  jdbc:mysql://localhost:3306/servicios
+    username: serviciosOwner
+    password: gkZ415lAgV80ewVE
+app:
+  emisorurl:    http://127.0.0.1:57778
+  archivourl:   http://127.0.0.1:57779
+  timbreurl:    http://127.0.0.1:57781
+  impimirurl:   http://127.0.0.1:57782
+
+---
+spring:
+  profiles: dev
+  datasource:
+    url:  jdbc:mysql://mysql:3306/servicios
+    username: serviciosOwner
+    password: gkZ415lAgV80ewVE
+app:
+  archivourl:   http://file:57779
+  emisorurl:    http://emisor:57778
+  timbreurl:    http://timbre:57781
+  impimirurl:   http://imprimir:57782
+
+---
+spring:
+  profiles: prd
+  datasource:
+    url:  jdbc:mysql://mysql:3306/servicios
+    username: serviciosOwner
+    password: gkZ415lAgV80ewVE
+app:
+  emisorurl:    http://emisor:57778
+  archivourl:   http://file:57779
+  timbreurl:    http://timbre:57781
+  impimirurl:   http://imprimir:57782

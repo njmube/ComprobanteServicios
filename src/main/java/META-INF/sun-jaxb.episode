@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2017.12.23 a las 05:57:51 PM CST 
+
+  -->
+  <bindings xmlns:tns="http://cancelacfd.sat.gob.mx" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.cubetech.comprobante.servicios.application.xml.cancelacion"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:Acuse">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.Acuse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Cancelacion">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.Cancelacion"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CancelaCFD">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.CancelaCFD"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CancelaCFDResponse">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.CancelaCFDResponse"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="http://www.w3.org/2000/09/xmldsig#" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.cubetech.comprobante.servicios.application.xml.cancelacion"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:SignatureType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.SignatureType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SignedInfoType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.SignedInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CanonicalizationMethodType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.CanonicalizationMethodType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SignatureMethodType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.SignatureMethodType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ReferenceType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.ReferenceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfTransformType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.ArrayOfTransformType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TransformType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.TransformType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DigestMethodType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.DigestMethodType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:KeyInfoType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.KeyInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:X509DataType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.X509DataType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:X509IssuerSerialType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.X509IssuerSerialType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:KeyValueType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.KeyValueType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RSAKeyValueType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.RSAKeyValueType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ObjectType">
+      <class ref="com.cubetech.comprobante.servicios.application.xml.cancelacion.ObjectType"/>
+    </bindings>
+  </bindings>
+</bindings>
