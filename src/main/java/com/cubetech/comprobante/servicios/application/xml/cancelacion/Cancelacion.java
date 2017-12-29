@@ -122,7 +122,7 @@ public class Cancelacion {
     public void setSignature(SignatureType value) {
         this.signature = value;
     }
-
+    
     /**
      * Obtiene el valor de la propiedad rfcEmisor.
      * 

@@ -5,5 +5,10 @@
 // Generado el: 2017.12.23 a las 05:57:51 PM CST 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.w3.org/2000/09/xmldsig#", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://cancelacfd.sat.gob.mx", 
+														elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED,
+														xmlns={@XmlNs(prefix="sig", namespaceURI="http://www.w3.org/2000/09/xmldsig#"),
+																@XmlNs(prefix="", namespaceURI="http://cancelacfd.sat.gob.mx")})
 package com.cubetech.comprobante.servicios.application.xml.cancelacion;
+
+import javax.xml.bind.annotation.XmlNs;

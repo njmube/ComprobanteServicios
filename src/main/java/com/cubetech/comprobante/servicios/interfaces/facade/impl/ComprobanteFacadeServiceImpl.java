@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 
 import com.cubetech.comprobante.servicios.application.SolicitudCancelacionService;
 import com.cubetech.comprobante.servicios.domain.valueobject.SolicitudCancelacion;
+import com.cubetech.comprobante.servicios.interfaces.dto.ArchivoDTO;
 import com.cubetech.comprobante.servicios.interfaces.dto.CancelaDTO;
 import com.cubetech.comprobante.servicios.interfaces.dto.CancelacionDTO;
 import com.cubetech.comprobante.servicios.interfaces.facade.ComprobanteFacadeService;
@@ -36,6 +37,12 @@ public class ComprobanteFacadeServiceImpl implements ComprobanteFacadeService {
 			throw e;
 		}
 		return ret;
+	}
+
+	@Override
+	public ArchivoDTO consultaArchivo(String cuenta, String uuid, String type) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
